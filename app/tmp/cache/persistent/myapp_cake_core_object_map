@@ -1,0 +1,2 @@
+1334240518
+a:2:{i:0;b:0;s:3:"app";a:3:{s:7:"plugins";a:2:{i:0;s:4:"Json";i:1;s:16:"TwitterBootstrap";}s:5:"model";a:3:{i:0;s:8:"AppModel";i:1;s:15:"Bezettingsregel";i:2;s:10:"Instrument";}s:10:"controller";a:4:{i:0;s:13:"AppController";i:1;s:26:"BezettingsregelsController";i:2;s:22:"InstrumentenController";i:3;s:15:"PagesController";}}}

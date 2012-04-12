@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- WORDT NOG NIET GEBRUIKT -->
+<configuration>
+	<variables>
+		<variable name='database_name' value='Muziekdatabase'/>
+		<variable name='database_datasource' value='Database/Sqlite'/>
+		<variable name='database_persistant' value='false'/>
+		<variable name='database_host' value=''/>
+		<variable name='database_login' value=''/>
+		<variable name='database_password' value=''/>
+		<variable name='database_database' value='../../db/muziekdatabase.db'/>
+		<variable name='database_prefix' value=''/>
+	</variables>
+	<models>
+		<model name="Bezettingsregel" plural='Bezettingsregels'>
+			<fields>
+				<field name='stuknr' required='true' datatype='integer' />
+				<field name='instrumentnaam' required='true' datatype='text' />
+				<field name='toonhoogte' required='true' datatype='text' />
+				<field name='aantal' required='false' datatype='integer' />
+			</fields>
+		</model>
+		<model name="Componist" plural='Componisten'>
+   			<fields>
+				<field name='componistId' required='true' datatype='numeric' />
+				<field name='naam' required='true' datatype='text' />
+				<field name='geboortedatum' required='false' datatype='date' />
+				<field name='schoolId' required='false' datatype='numeric' />
+			</fields>
+		</model>
+		<model name="Genre" plural='Genres'>
+			<fields>
+				<field name='genrenaam' required='true' datatype='text'/>
+			</fields>
+		</model>
+		<model name="Instrument" plural='Instrumenten'>
+			<fields>
+				<field name='instrumentnaam' required='true' datatype='text' />
+				<field name='toonhoogte' required='true' datatype='text' />
+			</fields>
+		</model>
+		<model name="Muziekschool" plural='Muziekscholen'>
+			<fields>
+				<field name='schoolId' required='true' datatype='integer' />
+				<field name='naam' required='true' datatype='text' />
+				<field name='plaatsnaam' required='true' datatype='text' />
+			</fields>
+		</model>
+		<model name="Niveau" plural='Niveaus'>
+			<fields>
+				<field name='niveaucode' required='true' datatype='char'/>
+				<field name='omschrijving' required='true' datatype='text'/>
+			</fields>
+		</model>
+		<model name="Stuk" plural='Stukken'>
+			<fields>
+				<field name='stuknr' required='true' datatype='numeric'/>
+				<field name='componistId' required='true' datatype='numeric'/>
+				<field name='titel' required='true' datatype='text'/>
+				<field name='stuknrOrigineel' required='false' datatype='numeric'/>
+				<field name='genrenaam' required='true' datatype='text'/>
+				<field name='niveaucode' required='false' datatype='char'/>
+				<field name='speelduur' required='false' datatype='numeric'/>
+				<field name='jaartal' required='true' datatype='numeric'/>
+			</fields>
+		</model>
+	</models>
+	<datatypes>
+		<datatype name="text" />
+		<datatype name="integer" />
+		<datatype name="numeric" />
+		<datatype name="char" />
+	</datatypes>
+</configuration>

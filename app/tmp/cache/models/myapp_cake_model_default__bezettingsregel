@@ -1,0 +1,2 @@
+1334240498
+a:4:{s:6:"stuknr";a:5:{s:4:"type";s:5:"float";s:4:"null";b:0;s:7:"default";s:0:"";s:6:"length";i:5;s:3:"key";s:7:"primary";}s:14:"instrumentnaam";a:5:{s:4:"type";s:6:"string";s:4:"null";b:0;s:7:"default";s:0:"";s:6:"length";i:14;s:3:"key";s:7:"primary";}s:10:"toonhoogte";a:5:{s:4:"type";s:6:"string";s:4:"null";b:0;s:7:"default";s:0:"";s:6:"length";i:7;s:3:"key";s:7:"primary";}s:6:"aantal";a:4:{s:4:"type";s:5:"float";s:4:"null";b:0;s:7:"default";s:0:"";s:6:"length";i:2;}}

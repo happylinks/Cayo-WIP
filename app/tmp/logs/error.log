@@ -1,0 +1,565 @@
+2012-04-10 21:41:14 Error: [Exception] String could not be parsed as XML
+#0 /Users/michieltje/Sites/cayo/cake_package/app/View/Layouts/default.ctp(70): SimpleXMLElement->__construct('')
+#1 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/View/View.php(885): include('/Users/michielt...')
+#2 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/View/View.php(849): View->_evaluate('/Users/michielt...', Array)
+#3 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/View/View.php(517): View->_render('/Users/michielt...')
+#4 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/View/View.php(461): View->renderLayout('', 'default')
+#5 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/Controller.php(938): View->render('home', NULL)
+#6 /Users/michieltje/Sites/cayo/cake_package/app/Controller/PagesController.php(80): Controller->render('home')
+#7 [internal function]: PagesController->display('home')
+#8 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/Controller.php(484): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#9 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-04-10 21:41:15 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 21:41:15 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 21:41:15 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 21:41:15 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 21:41:15 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 21:41:15 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 21:41:16 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 21:55:01 Error: [MissingComponentException] Component class ControllerListComponentComponent could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/ComponentCollection.php(52): ComponentCollection->load('ControllerListC...', Array)
+#1 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/Controller.php(611): ComponentCollection->init(Object(PagesController))
+#2 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(100): Controller->constructClasses()
+#3 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-04-10 21:55:22 Error: [MissingComponentException] Component class ControllerListComponentComponent could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/ComponentCollection.php(52): ComponentCollection->load('ControllerListC...', Array)
+#1 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/Controller.php(611): ComponentCollection->init(Object(PagesController))
+#2 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(100): Controller->constructClasses()
+#3 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-04-10 21:55:28 Error: [MissingComponentException] Component class ControllerListComponentComponent could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/ComponentCollection.php(52): ComponentCollection->load('ControllerListC...', Array)
+#1 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/Controller.php(611): ComponentCollection->init(Object(PagesController))
+#2 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(100): Controller->constructClasses()
+#3 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-04-10 21:55:36 Error: [MissingComponentException] Component class ControllerListComponentComponent could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/ComponentCollection.php(52): ComponentCollection->load('ControllerListC...', Array)
+#1 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/Controller.php(611): ComponentCollection->init(Object(PagesController))
+#2 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(100): Controller->constructClasses()
+#3 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-04-10 21:55:38 Error: [MissingComponentException] Component class ControllerListComponentComponent could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/ComponentCollection.php(52): ComponentCollection->load('ControllerListC...', Array)
+#1 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/Controller.php(611): ComponentCollection->init(Object(PagesController))
+#2 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(100): Controller->constructClasses()
+#3 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-04-10 21:55:47 Error: [MissingComponentException] Component class ControllerListComponent could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/ComponentCollection.php(52): ComponentCollection->load('ControllerList', Array)
+#1 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/Controller.php(611): ComponentCollection->init(Object(PagesController))
+#2 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(100): Controller->constructClasses()
+#3 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-04-10 21:56:14 Error: [MissingPluginException] Plugin TwitterBootstrap could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Core/App.php(358): CakePlugin::path('TwitterBootstra...')
+#1 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Core/App.php(225): App::pluginPath('TwitterBootstra...')
+#2 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Core/App.php(536): App::path('View/Helper', 'TwitterBootstra...')
+#3 [internal function]: App::load('TwitterBootstra...')
+#4 [internal function]: spl_autoload_call('TwitterBootstra...')
+#5 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/View/HelperCollection.php(82): class_exists('TwitterBootstra...')
+#6 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/View/View.php(827): HelperCollection->load('TwitterBootstra...', Array)
+#7 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/View/View.php(446): View->loadHelpers()
+#8 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/Controller.php(938): View->render('home', NULL)
+#9 /Users/michieltje/Sites/cayo/cake_package/app/Controller/PagesController.php(80): Controller->render('home')
+#10 [internal function]: PagesController->display('home')
+#11 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/Controller.php(484): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#12 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#14 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-04-10 21:56:51 Error: [MissingPluginException] Plugin TwitterBootstrap could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Core/App.php(358): CakePlugin::path('TwitterBootstra...')
+#1 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Core/App.php(225): App::pluginPath('TwitterBootstra...')
+#2 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Core/App.php(536): App::path('View/Helper', 'TwitterBootstra...')
+#3 [internal function]: App::load('TwitterBootstra...')
+#4 [internal function]: spl_autoload_call('TwitterBootstra...')
+#5 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/View/HelperCollection.php(82): class_exists('TwitterBootstra...')
+#6 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/View/View.php(827): HelperCollection->load('TwitterBootstra...', Array)
+#7 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/View/View.php(446): View->loadHelpers()
+#8 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/Controller.php(938): View->render('home', NULL)
+#9 /Users/michieltje/Sites/cayo/cake_package/app/Controller/PagesController.php(80): Controller->render('home')
+#10 [internal function]: PagesController->display('home')
+#11 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/Controller.php(484): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#12 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#14 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-04-10 21:56:59 Error: [MissingPluginException] Plugin TwitterBootstrap could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Core/App.php(358): CakePlugin::path('TwitterBootstra...')
+#1 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Core/App.php(225): App::pluginPath('TwitterBootstra...')
+#2 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Core/App.php(536): App::path('View/Helper', 'TwitterBootstra...')
+#3 [internal function]: App::load('TwitterBootstra...')
+#4 [internal function]: spl_autoload_call('TwitterBootstra...')
+#5 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/View/HelperCollection.php(82): class_exists('TwitterBootstra...')
+#6 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/View/View.php(827): HelperCollection->load('TwitterBootstra...', Array)
+#7 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/View/View.php(446): View->loadHelpers()
+#8 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/Controller.php(938): View->render('home', NULL)
+#9 /Users/michieltje/Sites/cayo/cake_package/app/Controller/PagesController.php(80): Controller->render('home')
+#10 [internal function]: PagesController->display('home')
+#11 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/Controller.php(484): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#12 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#14 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-04-10 21:57:09 Error: [MissingHelperException] Helper class TwitterBootstrapHelper could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/View/View.php(827): HelperCollection->load('TwitterBootstra...', Array)
+#1 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/View/View.php(446): View->loadHelpers()
+#2 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/Controller.php(938): View->render('home', NULL)
+#3 /Users/michieltje/Sites/cayo/cake_package/app/Controller/PagesController.php(80): Controller->render('home')
+#4 [internal function]: PagesController->display('home')
+#5 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/Controller.php(484): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#6 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#7 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#8 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2012-04-10 21:57:13 Error: [MissingPluginException] Plugin TwitterBootstrap could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Core/App.php(358): CakePlugin::path('TwitterBootstra...')
+#1 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Core/App.php(225): App::pluginPath('TwitterBootstra...')
+#2 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Core/App.php(536): App::path('View/Helper', 'TwitterBootstra...')
+#3 [internal function]: App::load('TwitterBootstra...')
+#4 [internal function]: spl_autoload_call('TwitterBootstra...')
+#5 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/View/HelperCollection.php(82): class_exists('TwitterBootstra...')
+#6 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/View/View.php(827): HelperCollection->load('TwitterBootstra...', Array)
+#7 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/View/View.php(446): View->loadHelpers()
+#8 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/Controller.php(938): View->render('home', NULL)
+#9 /Users/michieltje/Sites/cayo/cake_package/app/Controller/PagesController.php(80): Controller->render('home')
+#10 [internal function]: PagesController->display('home')
+#11 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/Controller.php(484): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#12 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#14 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-04-10 21:57:55 Error: [MissingPluginException] Plugin TwitterBootstrap could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Core/App.php(358): CakePlugin::path('TwitterBootstra...')
+#1 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Core/App.php(225): App::pluginPath('TwitterBootstra...')
+#2 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Core/App.php(536): App::path('View/Helper', 'TwitterBootstra...')
+#3 [internal function]: App::load('TwitterBootstra...')
+#4 [internal function]: spl_autoload_call('TwitterBootstra...')
+#5 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/View/HelperCollection.php(82): class_exists('TwitterBootstra...')
+#6 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/View/View.php(827): HelperCollection->load('TwitterBootstra...', Array)
+#7 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/View/View.php(446): View->loadHelpers()
+#8 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/Controller.php(938): View->render('home', NULL)
+#9 /Users/michieltje/Sites/cayo/cake_package/app/Controller/PagesController.php(80): Controller->render('home')
+#10 [internal function]: PagesController->display('home')
+#11 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/Controller.php(484): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#12 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#14 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2012-04-10 22:24:56 Error: [MissingControllerException] Controller class InstrumentController could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 22:25:16 Error: [MissingControllerException] Controller class InstrumentController could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 22:25:21 Error: [MissingControllerException] Controller class InstrumentController could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 22:32:23 Error: [MissingControllerException] Controller class InstrumentController could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 22:35:30 Error: [MissingControllerException] Controller class InstrumentController could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 22:35:41 Error: [MissingControllerException] Controller class InstrumentController could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 22:35:57 Error: [MissingControllerException] Controller class InstrumentController could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 22:36:54 Error: [MissingControllerException] Controller class InstrumentController could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 22:36:56 Error: [MissingControllerException] Controller class InstrumentenControllerController could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 22:37:39 Error: [MissingControllerException] Controller class InstrumentenControllerController could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 22:37:45 Error: [MissingControllerException] Controller class InstrumentController could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 22:38:28 Error: [MissingControllerException] Controller class InstrumentController could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 22:38:30 Error: [MissingControllerException] Controller class InstrumentController could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 22:39:23 Error: [MissingControllerException] Controller class InstrumentController could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-10 22:39:26 Error: [MissingConnectionException] Database connection "SQLSTATE[28000] [1045] Access denied for user 'user'@'localhost' (using password: YES)" is missing, or could not be created.
+#0 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Model/Datasource/DboSource.php(244): Mysql->connect()
+#1 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Model/Model.php(3280): ConnectionManager::getDataSource('default')
+#3 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Model/Model.php(1084): Model->setDataSource('default')
+#4 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Model/Model.php(3306): Model->setSource('Instrument')
+#5 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Model/Model.php(2567): Model->getDataSource()
+#6 /Users/michieltje/Sites/cayo/cake_package/app/Controller/InstrumentenController.php(11): Model->find('all')
+#7 [internal function]: InstrumentenController->index()
+#8 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Controller/Controller.php(484): ReflectionMethod->invokeArgs(Object(InstrumentenController), Array)
+#9 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/michieltje/Sites/cayo/cake_package/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(InstrumentenController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-04-10 22:50:52 Error: [MissingControllerException] Controller class InstrumentenController could not be found.
+#0 /Users/michieltje/Sites/cayo/cake_package/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-11 09:54:03 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-11 09:54:03 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-11 09:54:03 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-11 09:55:49 Error: [MissingTableException] Table instruments for model Instrument was not found in datasource default.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Model.php(3306): Model->setSource('instruments')
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Model.php(2567): Model->getDataSource()
+#2 /Users/michieltje/Sites/cayowip/app/Controller/InstrumentenController.php(11): Model->find('all')
+#3 [internal function]: InstrumentenController->index()
+#4 /Users/michieltje/Sites/cayowip/lib/Cake/Controller/Controller.php(484): ReflectionMethod->invokeArgs(Object(InstrumentenController), Array)
+#5 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(InstrumentenController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-04-11 09:56:27 Error: [MissingViewException] View file "/Users/michieltje/Sites/cayowip/app/View/Instrument/index.ctp" is missing.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/View/View.php(450): View->_getViewFileName(NULL)
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Controller/Controller.php(938): View->render(NULL, NULL)
+#2 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(111): Controller->render()
+#3 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(InstrumentenController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-04-11 10:20:39 Error: [MissingControllerException] Controller class InstrumentenController could not be found.
+#0 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-11 11:27:36 Error: [MissingControllerException] Controller class TrueController could not be found.
+#0 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-11 13:01:52 Error: [MissingControllerException] Controller class BezettingsregelController could not be found.
+#0 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-11 13:07:24 Error: [MissingControllerException] Controller class InstrumentController could not be found.
+#0 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-11 13:07:24 Error: [MissingControllerException] Controller class BezettingsregelController could not be found.
+#0 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-11 13:17:30 Error: [MissingControllerException] Controller class InstrumentController could not be found.
+#0 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-11 13:17:30 Error: [MissingControllerException] Controller class BezettingsregelController could not be found.
+#0 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-11 13:18:10 Error: [MissingControllerException] Controller class InstrumentController could not be found.
+#0 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-11 13:18:10 Error: [MissingControllerException] Controller class BezettingsregelController could not be found.
+#0 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-11 13:18:21 Error: [MissingControllerException] Controller class UndefinedController could not be found.
+#0 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-11 13:18:22 Error: [MissingControllerException] Controller class UndefinedController could not be found.
+#0 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-11 13:22:55 Error: [MissingViewException] View file "/Users/michieltje/Sites/cayowip/app/View/Instrument/index.ctp" is missing.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/View/View.php(450): View->_getViewFileName(NULL)
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Controller/Controller.php(938): View->render(NULL, NULL)
+#2 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(111): Controller->render()
+#3 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(InstrumentenController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-04-11 13:24:28 Error: [MissingActionException] Action BezettingsregelController::index2() could not be found.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-11 13:24:45 Error: [MissingActionException] Action BezettingsregelController::Instrumenten() could not be found.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-11 13:24:45 Error: [MissingActionException] Action BezettingsregelController::Bezettingsregels() could not be found.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-11 13:25:00 Error: [MissingActionException] Action BezettingsregelController::Bezettingsregels() could not be found.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-11 13:26:58 Error: [MissingActionException] Action BezettingsregelController::Bezettingsregels() could not be found.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-11 13:28:52 Error: [MissingActionException] Action BezettingsregelController::Bezettingsregels() could not be found.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-11 13:29:15 Error: [MissingActionException] Action BezettingsregelController::Instrumenten() could not be found.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-11 13:29:15 Error: [MissingActionException] Action BezettingsregelController::Bezettingsregels() could not be found.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-11 13:51:06 Error: [MissingActionException] Action BezettingsregelController::Bezettingsregels() could not be found.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-11 13:51:06 Error: [MissingActionException] Action BezettingsregelController::Instrumenten() could not be found.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-11 13:52:39 Error: [MissingActionException] Action BezettingsregelController::Bezettingsregels() could not be found.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-11 13:52:39 Error: [MissingActionException] Action BezettingsregelController::Instrumenten() could not be found.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-11 13:52:41 Error: [MissingActionException] Action BezettingsregelController::Instrumenten() could not be found.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-11 13:52:41 Error: [MissingActionException] Action BezettingsregelController::Bezettingsregels() could not be found.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-11 13:53:13 Error: [MissingActionException] Action BezettingsregelController::Bezettingsregels() could not be found.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-11 13:53:13 Error: [MissingActionException] Action BezettingsregelController::Instrumenten() could not be found.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-11 13:53:18 Error: [MissingActionException] Action BezettingsregelController::Instrumenten() could not be found.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-11 13:53:18 Error: [MissingActionException] Action BezettingsregelController::Bezettingsregels() could not be found.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-11 14:08:19 Error: [MissingActionException] Action BezettingsregelController::Bezettingsregel() could not be found.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-11 14:08:46 Error: [MissingControllerException] Controller class BezettingsregelController could not be found.
+#0 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-11 14:09:33 Error: [MissingControllerException] Controller class BezettingsregelController could not be found.
+#0 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-11 14:09:39 Error: [MissingControllerException] Controller class BezettingsregelController could not be found.
+#0 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-11 20:52:24 Error: [MissingViewException] View file "/Users/michieltje/Sites/cayowip/app/View/Instrument/index.ctp" is missing.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/View/View.php(450): View->_getViewFileName(NULL)
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Controller/Controller.php(938): View->render(NULL, NULL)
+#2 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(111): Controller->render()
+#3 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(InstrumentenController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-04-11 20:52:28 Error: [MissingActionException] Action InstrumentController::Bezettingsregels() could not be found.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(InstrumentenController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-11 20:52:34 Error: [MissingActionException] Action InstrumentController::Bezettingsregels() could not be found.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(InstrumentenController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-04-11 20:58:21 Error: [MissingViewException] View file "/Users/michieltje/Sites/cayowip/app/View/Instrument/index.ctp" is missing.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/View/View.php(450): View->_getViewFileName(NULL)
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Controller/Controller.php(938): View->render(NULL, NULL)
+#2 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(111): Controller->render()
+#3 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(InstrumentenController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-04-11 21:18:07 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Instrument.id
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(434): PDO->prepare('SELECT "Instrum...', Array)
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT "Instrum...', Array)
+#2 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT "Instrum...', Array, Array)
+#3 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(1056): DboSource->fetchAll('SELECT "Instrum...', false)
+#4 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Model.php(2567): DboSource->read(Object(Instrument), Array)
+#5 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(1908): Model->find('all', Array)
+#6 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(1858): DboSource->_matchRecords(Object(Instrument), Array)
+#7 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Model.php(2425): DboSource->delete(Object(Instrument), Array)
+#8 /Users/michieltje/Sites/cayowip/app/Controller/InstrumentenController.php(117): Model->deleteAll(Array, false, false)
+#9 [internal function]: InstrumentenController->delete()
+#10 /Users/michieltje/Sites/cayowip/lib/Cake/Controller/Controller.php(484): ReflectionMethod->invokeArgs(Object(InstrumentenController), Array)
+#11 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#12 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(InstrumentenController), Object(CakeRequest), Object(CakeResponse))
+#13 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2012-04-11 21:18:24 Error: [PDOException] SQLSTATE[HY000]: General error: 1 no such column: Instrument.id
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(434): PDO->prepare('SELECT "Instrum...', Array)
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('SELECT "Instrum...', Array)
+#2 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('SELECT "Instrum...', Array, Array)
+#3 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(1056): DboSource->fetchAll('SELECT "Instrum...', false)
+#4 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Model.php(2567): DboSource->read(Object(Instrument), Array)
+#5 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(1908): Model->find('all', Array)
+#6 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(1858): DboSource->_matchRecords(Object(Instrument), Array)
+#7 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Model.php(2425): DboSource->delete(Object(Instrument), Array)
+#8 /Users/michieltje/Sites/cayowip/app/Controller/InstrumentenController.php(117): Model->deleteAll(Array, false, false)
+#9 [internal function]: InstrumentenController->delete()
+#10 /Users/michieltje/Sites/cayowip/lib/Cake/Controller/Controller.php(484): ReflectionMethod->invokeArgs(Object(InstrumentenController), Array)
+#11 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#12 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(InstrumentenController), Object(CakeRequest), Object(CakeResponse))
+#13 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2012-04-12 00:15:18 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 19 Bezettingsregel.stuknr may not be NULL
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO "ma...', Array)
+#2 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(983): DboSource->execute('INSERT INTO "ma...')
+#3 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Model.php(1705): DboSource->create(Object(Bezettingsregel), Array, Array)
+#4 /Users/michieltje/Sites/cayowip/app/Controller/BezettingsregelsController.php(37): Model->save(Array)
+#5 [internal function]: BezettingsregelsController->add()
+#6 /Users/michieltje/Sites/cayowip/lib/Cake/Controller/Controller.php(484): ReflectionMethod->invokeArgs(Object(BezettingsregelsController), Array)
+#7 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-12 00:15:28 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 19 Bezettingsregel.aantal may not be NULL
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO "ma...', Array)
+#2 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(983): DboSource->execute('INSERT INTO "ma...')
+#3 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Model.php(1705): DboSource->create(Object(Bezettingsregel), Array, Array)
+#4 /Users/michieltje/Sites/cayowip/app/Controller/BezettingsregelsController.php(37): Model->save(Array)
+#5 [internal function]: BezettingsregelsController->add()
+#6 /Users/michieltje/Sites/cayowip/lib/Cake/Controller/Controller.php(484): ReflectionMethod->invokeArgs(Object(BezettingsregelsController), Array)
+#7 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-12 00:15:34 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 19 Bezettingsregel.aantal may not be NULL
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO "ma...', Array)
+#2 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(983): DboSource->execute('INSERT INTO "ma...')
+#3 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Model.php(1705): DboSource->create(Object(Bezettingsregel), Array, Array)
+#4 /Users/michieltje/Sites/cayowip/app/Controller/BezettingsregelsController.php(37): Model->save(Array)
+#5 [internal function]: BezettingsregelsController->add()
+#6 /Users/michieltje/Sites/cayowip/lib/Cake/Controller/Controller.php(484): ReflectionMethod->invokeArgs(Object(BezettingsregelsController), Array)
+#7 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-12 00:20:31 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 19 Bezettingsregel.aantal may not be NULL
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO "ma...', Array)
+#2 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(983): DboSource->execute('INSERT INTO "ma...')
+#3 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Model.php(1705): DboSource->create(Object(Bezettingsregel), Array, Array)
+#4 /Users/michieltje/Sites/cayowip/app/Controller/BezettingsregelsController.php(37): Model->save(Array)
+#5 [internal function]: BezettingsregelsController->add()
+#6 /Users/michieltje/Sites/cayowip/lib/Cake/Controller/Controller.php(484): ReflectionMethod->invokeArgs(Object(BezettingsregelsController), Array)
+#7 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-12 00:31:22 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 19 Bezettingsregel.stuknr may not be NULL
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO "ma...', Array)
+#2 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(983): DboSource->execute('INSERT INTO "ma...')
+#3 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Model.php(1705): DboSource->create(Object(Bezettingsregel), Array, Array)
+#4 /Users/michieltje/Sites/cayowip/app/Controller/BezettingsregelsController.php(37): Model->save(Array)
+#5 [internal function]: BezettingsregelsController->add()
+#6 /Users/michieltje/Sites/cayowip/lib/Cake/Controller/Controller.php(484): ReflectionMethod->invokeArgs(Object(BezettingsregelsController), Array)
+#7 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-12 00:32:01 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 19 Bezettingsregel.stuknr may not be NULL
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO "ma...', Array)
+#2 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(983): DboSource->execute('INSERT INTO "ma...')
+#3 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Model.php(1705): DboSource->create(Object(Bezettingsregel), Array, Array)
+#4 /Users/michieltje/Sites/cayowip/app/Controller/BezettingsregelsController.php(37): Model->save(Array)
+#5 [internal function]: BezettingsregelsController->add()
+#6 /Users/michieltje/Sites/cayowip/lib/Cake/Controller/Controller.php(484): ReflectionMethod->invokeArgs(Object(BezettingsregelsController), Array)
+#7 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-12 00:33:11 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 19 Bezettingsregel.stuknr may not be NULL
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(436): PDOStatement->execute(Array)
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO "ma...', Array)
+#2 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Datasource/DboSource.php(983): DboSource->execute('INSERT INTO "ma...')
+#3 /Users/michieltje/Sites/cayowip/lib/Cake/Model/Model.php(1705): DboSource->create(Object(Bezettingsregel), Array, Array)
+#4 /Users/michieltje/Sites/cayowip/app/Controller/BezettingsregelsController.php(37): Model->save(Array)
+#5 [internal function]: BezettingsregelsController->add()
+#6 /Users/michieltje/Sites/cayowip/lib/Cake/Controller/Controller.php(484): ReflectionMethod->invokeArgs(Object(BezettingsregelsController), Array)
+#7 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(104): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(BezettingsregelsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-04-12 16:21:23 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-12 16:21:24 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-12 16:21:24 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+#0 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-04-12 16:21:26 Error: [MissingViewException] View file "/Users/michieltje/Sites/cayowip/app/View/Instrument/index.ctp" is missing.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/View/View.php(450): View->_getViewFileName(NULL)
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Controller/Controller.php(938): View->render(NULL, NULL)
+#2 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(111): Controller->render()
+#3 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(InstrumentenController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-04-12 16:21:48 Error: [MissingViewException] View file "/Users/michieltje/Sites/cayowip/app/View/Instrument/index.ctp" is missing.
+#0 /Users/michieltje/Sites/cayowip/lib/Cake/View/View.php(450): View->_getViewFileName(NULL)
+#1 /Users/michieltje/Sites/cayowip/lib/Cake/Controller/Controller.php(938): View->render(NULL, NULL)
+#2 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(111): Controller->render()
+#3 /Users/michieltje/Sites/cayowip/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(InstrumentenController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/michieltje/Sites/cayowip/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

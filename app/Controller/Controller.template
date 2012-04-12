@@ -1,0 +1,128 @@
+<?php
+App::uses('AppController', 'Controller');
+App::uses('JsonResponse', 'Json.Network');
+
+class %PLURAL%Controller extends AppController {
+
+    public $name = '%NAME%';
+    public $plural = '%PLURAL%';
+
+    public function index(){
+        $data = $this->{$this->name}->find('all');
+        if($this->RequestHandler->isAjax()){
+            return new JsonResponse($data);
+        }else{
+            $this->set(compact('data'));
+        }
+    }
+    public function view(){
+        $arguments = $this->params['data'];
+        $fields = array_keys($this->{$this->name}->getColumnTypes());
+        foreach($fields as $field){
+            $key = $field;
+            $value = $arguments[$key];
+            $conditions[$key] = $value;
+        }
+
+        $data = $this->{$this->name}->find('all',array('conditions'=>$conditions));
+        if($this->RequestHandler->isAjax()){
+            return new JsonResponse($data);
+        }else{
+            $this->set(compact('data'));
+        }
+    }
+    public function add() {
+        if($this->request->is('post')) {
+            $this->{$this->name}->create();
+            if($this->{$this->name}->save($this->request->data)){
+                $this->set(compact('data'));
+                if($this->RequestHandler->isAjax()){
+                    return new JsonResponse(array('code'=>1,'message'=> 'Data succesfully added.'));
+                }else{
+                    $message = "Data succesfully added.";
+                    $this->set(compact('message'));
+                    $data = $this->{$this->name}->find('all');
+                    $this->set(compact('data'));
+                }
+            }else{
+                if($this->RequestHandler->isAjax()){
+                    return new JsonResponse(array('code'=>0,'message'=> 'Data could not be added.'));
+                }else{
+                    $message = "Data not added.";
+                    $this->set(compact('message'));
+                    $data = $this->{$this->name}->find('all');
+                    $this->set(compact('data'));
+                }
+            }
+        }else{
+            $data = $this->{$this->name}->find('all');
+            $this->set(compact('data'));
+        }
+    }
+    public function edit() {
+        $arguments = $this->params['data'];
+        $fields = array_keys($this->{$this->name}->getColumnTypes());
+        foreach($fields as $field){
+            $key = $field;
+            $value = $arguments['old'][$key];
+            $conditions[$key] = $value;
+        }
+        $data = $this->{$this->name}->find('all',array('conditions'=>$conditions));
+        if(empty($data)){
+            if($this->RequestHandler->isAjax()){
+                return new JsonResponse(array('code'=>0,'message'=> 'Record does not exist.'));
+            }else{
+                $message = "Record does not exist.";
+                $this->set(compact('message'));
+            }
+        }
+        if($this->request->is('get')){
+            $this->request->data = $this->{$this->name}->read();
+        }
+        if($this->request->is('post') || $this->request->is('put')){
+            if($this->{$this->name}->deleteAll($conditions,false,false) && $this->{$this->name}->save($this->request->data['new'])){
+                if($this->RequestHandler->isAjax()){
+                    return new JsonResponse(array('code'=>1,'message'=>'Data succesfully modified.'));
+                }else{
+                    $message = "Data succesfully modified.";
+                    $this->set(compact('message'));
+                }
+            } else {
+                if($this->RequestHandler->isAjax()){
+                    return new JsonResponse(array('code'=>0,'message'=>'Data could not be modified.'));
+                }else{
+                    $message = "Data could not be modified.";
+                    $this->set(compact('message'));
+                }
+            }
+        }
+    }
+    public function delete() {
+        if ($this->request->is('get')) {
+            throw new MethodNotAllowedException();
+        }
+        $arguments = $this->params['data'];
+        $fields = array_keys($this->{$this->name}->getColumnTypes());
+        foreach($fields as $field){
+            $key = $field;
+            $value = $arguments[$key];
+            $conditions[$key] = $value;
+        }
+        if($this->{$this->name}->deleteAll($conditions,false,false)) {
+            if($this->RequestHandler->isAjax()){
+                return new JsonResponse(array('code'=>1,'message'=>'Data succesfully deleted.'));
+            }else{
+                $message = "Data succesfully deleted.";
+                $this->set(compact('message'));
+                $this->redirect(array('action' => 'index'));
+            }
+        }else{
+            if($this->RequestHandler->isAjax()){
+                return new JsonResponse(array('code'=>0,'message'=>'Data could not be deleted.'));
+            }else{
+                $message = "Data could not be deleted.";
+                $this->set(compact('message'));
+            }
+        }
+    }
+}
