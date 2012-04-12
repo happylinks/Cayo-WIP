@@ -8,7 +8,7 @@
 				<label><a href='#' name='edit' class='btn btn-warning'>Edit</a></label>
 				<label><a href='#' name='delete' class='btn btn-danger'>Delete</a></label>
 			</div><!-- /leftaddons -->
-			<div class="rightaddons" name='Bezettingsregels'>
+			<div class="rightaddons" name='%PLURAL%'>
 				<div><label>Multi <input type="checkbox" name="multiselectrows" value="" style='margin:0 auto;'></label></div>
 			</div><!-- /leftaddons -->
 		    <table class="table table-striped table-bordered datatable" name='%PLURAL%'>
